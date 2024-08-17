@@ -3,7 +3,7 @@ const process = require('process');
 
 var expressapp = express()
 expressapp.get('/', function (req, res) {
-    res.send('{"message":"Hola Mundo desde JavaScript V1"}')
+    res.send('{"message":"Hola Mundo desde JavaScript V2"}')
 })
 expressapp.listen(5000, function () {
     console.log('Escuchando desde puerto 5000!')
